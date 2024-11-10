@@ -1,11 +1,10 @@
-# API de cadastro de dados de usuários
+# User data registration API
 
-API para cadastro e consulta de dados de usuários. Este projeto oferece endpoints para cadastrar usuários e consultar informações como Nome, Email, Status e ID.
+API for registering and querying user data. This project offers endpoints to register users and query information such as Name, Email, Status and ID.
 
-O Front-end consome essa API para exibir os dados dos usuários, fornecendo uma interface interativa para cadastro.
+The Front-end consumes this API to display user data, providing an interactive interface for registration.
 
-
-###  Começando
+###  Getting started
 
 
 Clone repository
@@ -19,7 +18,7 @@ Run Front-end:
 cd frontend
 npm install
 ```
-Para iniciar o servidor de desenvolvimento, rode o comando:
+To start the development server, run the command:
 ```
 npm run dev
 ```
@@ -29,30 +28,30 @@ Run Back-end:
 cd backend
 npm install
 ```
-Para iniciar o servidor de desenvolvimento, rode o comando:
+To start the development server, run the command:
 ```
 npm run dev
 ```
-O servidor estará rodando na URL http://localhost:3333.
+The server will be running at the URL http://localhost:3333.
 
 
-##  Visão geral da arquitetura
+##  Architecture overview
 
 ### 1. Back-end
-O back-end é responsável pela persistência dos dados dos usuários. Ele oferece endpoints para criar, consultar e atualizar os dados.
+The backend is responsible for the persistence of user data. It provides endpoints to create, query, and update data.
 
-Abaixo, temos exemplos de como o back-end pode ser implementado com Node.js e MongoDB utilizando o framework Express:
+Below we have examples of how the backend can be implemented with Node.js and MongoDB.
 
 ###  2. Front-end
-O Front-end é desenvolvido utilizando React e é responsável pela interface com o usuário. O React consome a API do back-end para exibir os dados dos usuários e interagir com eles (adicionar, editar, excluir).
+The Front-end is developed using React and is responsible for the user interface. React consumes the backend API to display user data and interact with it (add, edit, delete).
 
-## Tecnologias e Ferramentas Utilizadas
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+## Technologies and Tools Used
+This project was developed using the following technologies:
 
-Node.js - Ambiente de execução Typescript.
+Node.js - Typescript runtime environment.
 
-TypeScript - Superset de JavaScript para adicionar tipagem estática.
+TypeScript - JavaScript superset to add static typing.
 
-MongoDB - Banco de dados NoSQL para armazenamento de dados do usuário.
+MongoDB - NoSQL database for storing user data.
 
-React - Framework usada para construção do Front-end 
+React - Framework used to build the Front-end
