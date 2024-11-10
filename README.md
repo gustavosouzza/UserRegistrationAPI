@@ -1,6 +1,8 @@
 # API de cadastro de dados de usuários
 
-API de cadastro e consulta de dados de usuário fornecendo endpoints de CRUD completo. Para realizar a consulta de endereço o projeto está consumindo uma API externa ViaCEP e trazendo os dados de Bairro, Cidade e UF do usuário através do CEP informado.
+API para cadastro e consulta de dados de usuários. Este projeto oferece endpoints para cadastrar usuários e consultar informações como Nome, Email, Status e ID.
+
+O Front-end consome essa API para exibir os dados dos usuários, fornecendo uma interface interativa para cadastro.
 
 
 ###  Começando
@@ -16,75 +18,41 @@ Run Front-end:
 ```
 cd frontend
 npm install
+```
+Para iniciar o servidor de desenvolvimento, rode o comando:
+```
 npm run dev
 ```
-
 Run Back-end:
 
 ```
 cd backend
 npm install
+```
+Para iniciar o servidor de desenvolvimento, rode o comando:
+```
 npm run dev
 ```
+O servidor estará rodando na URL http://localhost:3333.
+
 
 ##  Visão geral da arquitetura
 
-###  Back-end
+### 1. Back-end
+O back-end é responsável pela persistência dos dados dos usuários. Ele oferece endpoints para criar, consultar e atualizar os dados.
 
-Explique que eles verificam esses testes e porquê.
+Abaixo, temos exemplos de como o back-end pode ser implementado com Node.js e MongoDB utilizando o framework Express:
 
-```
-Dar exemplos
-```
+###  2. Front-end
+O Front-end é desenvolvido utilizando React e é responsável pela interface com o usuário. O React consome a API do back-end para exibir os dados dos usuários e interagir com eles (adicionar, editar, excluir).
 
-### ⌨️ E testes de estilo de codificação
+## Tecnologias e Ferramentas Utilizadas
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Explique que eles verificam esses testes e porquê.
+Node.js - Ambiente de execução Typescript.
 
-```
-Dar exemplos
-```
+TypeScript - Superset de JavaScript para adicionar tipagem estática.
 
-## 📦 Implantação
+MongoDB - Banco de dados NoSQL para armazenamento de dados do usuário.
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+React - Framework usada para construção do Front-end 
