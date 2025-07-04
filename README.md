@@ -9,7 +9,7 @@ The Front-end consumes this API to display user data, providing an interactive i
 
 Clone repository
 ```
-git clone https://github.com/gxstavoqy/UserRegistrationAPI.git
+git clone https://github.com/gustavosouzza/UserRegistrationAPI.git
 ```
 
 Run Front-end:
